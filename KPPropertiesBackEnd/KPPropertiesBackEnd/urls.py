@@ -7,5 +7,5 @@ from Properties.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
 	path('',ReactView.as_view(),name="apiview"),
-	path('properties/', include('Properties.urls')),
+	# path('properties/', include('Properties.urls')),
 ]
